@@ -1,10 +1,10 @@
 # 合計値
 def cal_total(numbers):
-    total = 0
+    total_number = 0
 
     for num in numbers:
-        total += num
-    return total
+        total_number += num
+    return total_number
 
 
 # 最大値

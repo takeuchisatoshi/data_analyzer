@@ -25,7 +25,6 @@ if __name__ == '__main__':
     average_number = cal_average(numbers)
 
     # ユーザーに見やすいようにフォーマットする
-
     # 出力する
     print(f"合計: {total_number}")
     print(f"最大値: {max_number}")
