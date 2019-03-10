@@ -1,3 +1,5 @@
+from calculation import calculation_total
+
 if __name__ == '__main__':
     # ユーザーからの入力を受け取る
     input_data = input("データを入力してください(スペース区切り) > ")
@@ -17,7 +19,9 @@ if __name__ == '__main__':
     print(numbers)
 
     # 各統計量を計算する(合計, 平均, ...)
+    total = calculation_total(numbers)
 
     # ユーザーに見やすいようにフォーマットする
 
     # 出力する
+    print(f"合計: {total}")
